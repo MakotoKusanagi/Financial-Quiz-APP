@@ -1,0 +1,18 @@
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string name="app_name">Financial Quiz APP</string>
+    <string name="first_question">1. Which is the name of stock index?</string>
+    <string name="a_answer">A. DAX</string>
+    <string name="b_answer">B. STOX</string>
+    <string name="c_answer">C. CAL</string>
+    <string name="second_question">2. Check the correct answers</string>
+    <string name="checkbox_1">Leverage is used in forex trading</string>
+    <string name="checkbox_2">Euro is the most-traded currency</string>
+    <string name="checkbox_3">A person who sells/buys securities is a stockbroker</string>
+    <string name="third_question">3. Type of swaps in which fixed interests payments are exchanged for floating interests payments are called</string>
+    <string name="currency_swap">Currency swaps</string>
+    <string name="indexed_swaps">Indexed swaps</string>
+    <string name="interest_rate">Interest rate swaps</string>
+    <string name="fourth_question">4. What does IPO stands for ?</string>
+    <string name="input_answer">Answer: <xliff:g id="answer" example="input"></xliff:g></string>
+</resources>

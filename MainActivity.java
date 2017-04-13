@@ -81,11 +81,11 @@ private int calculateAnswers(boolean inputAnswer, boolean isAnswerA, boolean isA
 boolean indexedSwap, boolean  interestRateSwap){
     if (isAnswerA && isFirtsAnswer && isThirdAnswer && interestRateSwap && inputAnswer){
         answerCounter = 4;
-    }else if (isAnswerA && isFirtsAnswer && isThirdAnswer && interestRateSwap){
+    }else if (isAnswerA && isFirtsAnswer && isThirdAnswer && interestRateSwap && !isSecondAnswer){
         answerCounter = 3;
-    }else if (isAnswerA && isFirtsAnswer && isThirdAnswer && inputAnswer){
+    }else if (isAnswerA && isFirtsAnswer && isThirdAnswer && inputAnswer && !isSecondAnswer){
         answerCounter = 3;
-    }else if (isFirtsAnswer && isThirdAnswer && interestRateSwap && inputAnswer){
+    }else if (isFirtsAnswer && isThirdAnswer && interestRateSwap && inputAnswer && !isSecondAnswer){
         answerCounter = 3;
     }else if (isAnswerA && interestRateSwap && inputAnswer){
         answerCounter = 3;
@@ -93,17 +93,17 @@ boolean indexedSwap, boolean  interestRateSwap){
         answerCounter = 2;
     }else if (isAnswerA && interestRateSwap){
         answerCounter = 2;
-    }else if (isAnswerA && isFirtsAnswer && isThirdAnswer){
+    }else if (isAnswerA && isFirtsAnswer && isThirdAnswer && !isSecondAnswer){
         answerCounter = 2;
-    }else if (isFirtsAnswer && isThirdAnswer && interestRateSwap){
+    }else if (isFirtsAnswer && isThirdAnswer && interestRateSwap && !isSecondAnswer){
         answerCounter = 2;
-    }else if (isFirtsAnswer && isThirdAnswer && inputAnswer){
+    }else if (isFirtsAnswer && isThirdAnswer && inputAnswer && !isSecondAnswer){
         answerCounter = 2;
     }else if (interestRateSwap && inputAnswer){
         answerCounter = 2;
     }else if (isAnswerA){
         answerCounter = 1;
-    }else if (isFirtsAnswer && isThirdAnswer){
+    }else if (isFirtsAnswer && isThirdAnswer && !isSecondAnswer){
         answerCounter = 1;
     }else if (interestRateSwap){
         answerCounter = 1;
